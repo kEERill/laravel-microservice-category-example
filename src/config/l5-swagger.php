@@ -42,7 +42,7 @@ return [
                 */
                 'annotations' => [
                     base_path('app/Http'),
-                    base_path('app/Services/*/Interfaces/Http')
+                    base_path('app/Services/*/interfaces/Http')
                 ]
             ]
         ]

@@ -1,18 +1,16 @@
 <?php
 
-namespace App\Services\Startup;
+namespace Keerill\CategoriesInfrastructure;
 
 use Micromus\MicroserviceStructure\Services\AbstractServiceProvider;
 use Micromus\MicroserviceStructure\Services\ServiceConfigurator;
 
-final class StartupServiceProvider extends AbstractServiceProvider
+final class CategoriesServiceProvider extends AbstractServiceProvider
 {
-    /**
-     * @param ServiceConfigurator $serviceConfigurator
-     * @return void
-     */
+
     protected function configureService(ServiceConfigurator $serviceConfigurator): void
     {
-        $serviceConfigurator->usingRoutes();
+        $serviceConfigurator
+            ->usingConfig('categories');
     }
 }

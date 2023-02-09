@@ -2,7 +2,7 @@
 
 namespace App\Providers;
 
-use App\Services\Startup\StartupServiceProvider;
+use App\Services\Categories\CategoriesServiceProvider;
 use Illuminate\Support\ServiceProvider;
 
 final class AppServiceProvider extends ServiceProvider
@@ -11,7 +11,7 @@ final class AppServiceProvider extends ServiceProvider
      * @var class-string[]
      */
     protected array $services = [
-        StartupServiceProvider::class
+        CategoriesServiceProvider::class
     ];
 
     /**
