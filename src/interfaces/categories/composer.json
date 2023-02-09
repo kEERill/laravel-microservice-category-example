@@ -1,0 +1,24 @@
+{
+    "name": "keerill/categories-infrastructure",
+    "autoload": {
+        "psr-4": {
+            "Keerill\\CategoriesInfrastructure\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Keerill\\CategoriesInfrastructure\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "keerill",
+            "email": "kirill.popkov.work@gmail.com"
+        }
+    ],
+    "require": {
+        "micromus/microservice-structure": "^1.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
