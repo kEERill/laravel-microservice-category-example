@@ -20,7 +20,7 @@ final class CategoriesSubservice
     public function getCategoryById(int $categoryId): CategoryData
     {
         $categoryResponse = Http::baseUrl($this->getUrl())
-            ->get("/v1/infrastructure/$categoryId")
+            ->get("/v1/categories/$categoryId")
             ->json('data');
 
         return CategoryData::from($categoryResponse);
