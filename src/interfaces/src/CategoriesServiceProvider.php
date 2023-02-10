@@ -11,6 +11,7 @@ final class CategoriesServiceProvider extends AbstractServiceProvider
     protected function configureService(ServiceConfigurator $serviceConfigurator): void
     {
         $serviceConfigurator
+            ->setSubserviceNamespace('Subservices')
             ->usingConfig('categories');
     }
 }

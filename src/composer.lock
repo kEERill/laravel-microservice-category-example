@@ -2581,16 +2581,16 @@
         },
         {
             "name": "micromus/microservice-structure",
-            "version": "v1.0.0",
+            "version": "v1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/micromus/microservice-structure.git",
-                "reference": "441e7ebc65f6035bd3cab5cdb5f408a99a113334"
+                "reference": "de51b6277be9764c72e0ffdc5f9761b7e610332d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/micromus/microservice-structure/zipball/441e7ebc65f6035bd3cab5cdb5f408a99a113334",
-                "reference": "441e7ebc65f6035bd3cab5cdb5f408a99a113334",
+                "url": "https://api.github.com/repos/micromus/microservice-structure/zipball/de51b6277be9764c72e0ffdc5f9761b7e610332d",
+                "reference": "de51b6277be9764c72e0ffdc5f9761b7e610332d",
                 "shasum": ""
             },
             "require": {
@@ -2640,9 +2640,9 @@
             ],
             "support": {
                 "issues": "https://github.com/micromus/microservice-structure/issues",
-                "source": "https://github.com/micromus/microservice-structure/tree/v1.0.0"
+                "source": "https://github.com/micromus/microservice-structure/tree/v1.1.1"
             },
-            "time": "2023-02-05T18:40:37+00:00"
+            "time": "2023-02-10T11:25:32+00:00"
         },
         {
             "name": "micromus/service-swagger",
@@ -3359,43 +3359,38 @@
         },
         {
             "name": "php-http/discovery",
-            "version": "1.15.0",
+            "version": "1.14.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-http/discovery.git",
-                "reference": "ebf69e00f8c58c47bc1114e38d2cfd40b7fe9b1e"
+                "reference": "31d8ee46d0215108df16a8527c7438e96a4d7735"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-http/discovery/zipball/ebf69e00f8c58c47bc1114e38d2cfd40b7fe9b1e",
-                "reference": "ebf69e00f8c58c47bc1114e38d2cfd40b7fe9b1e",
+                "url": "https://api.github.com/repos/php-http/discovery/zipball/31d8ee46d0215108df16a8527c7438e96a4d7735",
+                "reference": "31d8ee46d0215108df16a8527c7438e96a4d7735",
                 "shasum": ""
             },
             "require": {
-                "composer-plugin-api": "^1.0|^2.0",
                 "php": "^7.1 || ^8.0"
             },
             "conflict": {
                 "nyholm/psr7": "<1.0"
             },
-            "provide": {
-                "php-http/async-client-implementation": "*",
-                "php-http/client-implementation": "*",
-                "psr/http-client-implementation": "*",
-                "psr/http-factory-implementation": "*",
-                "psr/http-message-implementation": "*"
-            },
             "require-dev": {
-                "composer/composer": "^1.0.2|^2.0",
                 "graham-campbell/phpspec-skip-example-extension": "^5.0",
                 "php-http/httplug": "^1.0 || ^2.0",
                 "php-http/message-factory": "^1.0",
-                "phpspec/phpspec": "^5.1 || ^6.1 || ^7.3",
-                "symfony/phpunit-bridge": "^6.2"
+                "phpspec/phpspec": "^5.1 || ^6.1"
             },
-            "type": "composer-plugin",
+            "suggest": {
+                "php-http/message": "Allow to use Guzzle, Diactoros or Slim Framework factories"
+            },
+            "type": "library",
             "extra": {
-                "class": "Http\\Discovery\\Composer\\Plugin"
+                "branch-alias": {
+                    "dev-master": "1.9-dev"
+                }
             },
             "autoload": {
                 "psr-4": {
@@ -3412,7 +3407,7 @@
                     "email": "mark.sagikazar@gmail.com"
                 }
             ],
-            "description": "Finds and installs PSR-7, PSR-17, PSR-18 and HTTPlug implementations",
+            "description": "Finds installed HTTPlug implementations and PSR-7 message factories",
             "homepage": "http://php-http.org",
             "keywords": [
                 "adapter",
@@ -3421,14 +3416,13 @@
                 "factory",
                 "http",
                 "message",
-                "psr17",
                 "psr7"
             ],
             "support": {
                 "issues": "https://github.com/php-http/discovery/issues",
-                "source": "https://github.com/php-http/discovery/tree/1.15.0"
+                "source": "https://github.com/php-http/discovery/tree/1.14.3"
             },
-            "time": "2023-02-09T12:05:45+00:00"
+            "time": "2022-07-11T14:04:40+00:00"
         },
         {
             "name": "php-http/httplug",
@@ -4634,16 +4628,16 @@
         },
         {
             "name": "sentry/sentry",
-            "version": "3.13.0",
+            "version": "3.13.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/getsentry/sentry-php.git",
-                "reference": "a046ff5a37f5a0a0c285a6543dc17a7fc93b47f8"
+                "reference": "71c86fe4699a7f1a40c7d985f3dc7667045152f0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/getsentry/sentry-php/zipball/a046ff5a37f5a0a0c285a6543dc17a7fc93b47f8",
-                "reference": "a046ff5a37f5a0a0c285a6543dc17a7fc93b47f8",
+                "url": "https://api.github.com/repos/getsentry/sentry-php/zipball/71c86fe4699a7f1a40c7d985f3dc7667045152f0",
+                "reference": "71c86fe4699a7f1a40c7d985f3dc7667045152f0",
                 "shasum": ""
             },
             "require": {
@@ -4655,7 +4649,7 @@
                 "php": "^7.2|^8.0",
                 "php-http/async-client-implementation": "^1.0",
                 "php-http/client-common": "^1.5|^2.0",
-                "php-http/discovery": "^1.11",
+                "php-http/discovery": "^1.11, <1.15",
                 "php-http/httplug": "^1.1|^2.0",
                 "php-http/message": "^1.5",
                 "psr/http-factory": "^1.0",
@@ -4722,7 +4716,7 @@
             ],
             "support": {
                 "issues": "https://github.com/getsentry/sentry-php/issues",
-                "source": "https://github.com/getsentry/sentry-php/tree/3.13.0"
+                "source": "https://github.com/getsentry/sentry-php/tree/3.13.1"
             },
             "funding": [
                 {
@@ -4734,7 +4728,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2023-02-03T10:03:13+00:00"
+            "time": "2023-02-10T10:17:57+00:00"
         },
         {
             "name": "sentry/sentry-laravel",
@@ -4831,16 +4825,16 @@
         },
         {
             "name": "spatie/laravel-data",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-data.git",
-                "reference": "40c9c3975e83263885b904d8e7d192ec5ca2bfda"
+                "reference": "419167479715cc17813c60de2c342bb3f2d3c6d9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-data/zipball/40c9c3975e83263885b904d8e7d192ec5ca2bfda",
-                "reference": "40c9c3975e83263885b904d8e7d192ec5ca2bfda",
+                "url": "https://api.github.com/repos/spatie/laravel-data/zipball/419167479715cc17813c60de2c342bb3f2d3c6d9",
+                "reference": "419167479715cc17813c60de2c342bb3f2d3c6d9",
                 "shasum": ""
             },
             "require": {
@@ -4901,7 +4895,7 @@
             ],
             "support": {
                 "issues": "https://github.com/spatie/laravel-data/issues",
-                "source": "https://github.com/spatie/laravel-data/tree/3.0.0"
+                "source": "https://github.com/spatie/laravel-data/tree/3.1.0"
             },
             "funding": [
                 {
@@ -4909,7 +4903,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-02-01T13:23:18+00:00"
+            "time": "2023-02-10T09:31:12+00:00"
         },
         {
             "name": "spatie/laravel-package-tools",
