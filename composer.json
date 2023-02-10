@@ -1,0 +1,19 @@
+{
+    "name": "keerill/categories-interfaces",
+    "autoload": {
+        "psr-4": {
+            "Keerill\\Categories\\": "src/interfaces/src"
+        }
+    },
+    "authors": [
+        {
+            "name": "keerill",
+            "email": "kirill.popkov.work@gmail.com"
+        }
+    ],
+    "require": {
+        "micromus/microservice-structure": "^1.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
