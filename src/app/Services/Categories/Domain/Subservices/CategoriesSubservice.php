@@ -2,8 +2,8 @@
 
 namespace App\Services\Categories\Domain\Subservices;
 
-use Keerill\CategoriesInfrastructure\Contracts\GetCategoryByIdInterface;
-use Keerill\CategoriesInfrastructure\DataTransferObjects\CategoryData;
+use Keerill\Categories\Contracts\GetCategoryByIdInterface;
+use Keerill\Categories\DataTransferObjects\CategoryData;
 use Micromus\MicroserviceStructure\Attributes\RegisterAction;
 
 final class CategoriesSubservice implements GetCategoryByIdInterface

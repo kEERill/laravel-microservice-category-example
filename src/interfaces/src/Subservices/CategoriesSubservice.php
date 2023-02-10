@@ -1,10 +1,10 @@
 <?php
 
-namespace Keerill\CategoriesInfrastructure\Subservices;
+namespace Keerill\Categories\Subservices;
 
 use Illuminate\Support\Facades\Http;
-use Keerill\CategoriesInfrastructure\Contracts\GetCategoryByIdInterface;
-use Keerill\CategoriesInfrastructure\DataTransferObjects\CategoryData;
+use Keerill\Categories\Contracts\GetCategoryByIdInterface;
+use Keerill\Categories\DataTransferObjects\CategoryData;
 use Micromus\MicroserviceStructure\Attributes\RegisterAction;
 
 final class CategoriesSubservice
@@ -19,7 +19,7 @@ final class CategoriesSubservice
     public function getCategoryById(int $categoryId): CategoryData
     {
         $categoryResponse = Http::baseUrl($this->getUrl())
-            ->get("/v1/categories/$categoryId")
+            ->get("/v1/infrastructure/$categoryId")
             ->json('data');
 
         return CategoryData::from($categoryResponse);

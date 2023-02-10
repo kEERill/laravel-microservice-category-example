@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c91d97425edd81d8b31e4f905ae386fd",
+    "content-hash": "9f6cecc1f807b9529608730e63823da1",
     "packages": [
         {
             "name": "brick/math",
@@ -1714,12 +1714,12 @@
             "time": "2021-10-08T21:21:46+00:00"
         },
         {
-            "name": "keerill/categories-infrastructure",
+            "name": "keerill/categories-interfaces",
             "version": "dev-main",
             "dist": {
                 "type": "path",
-                "url": "./interfaces/categories",
-                "reference": "81cc5a3709eca6e7eae82b46683b6a6967d558f9"
+                "url": "./interfaces",
+                "reference": "dfb676833c62fe5a185e23b3ad9491dd71c43b82"
             },
             "require": {
                 "micromus/microservice-structure": "^1.0"
@@ -1727,7 +1727,12 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Keerill\\CategoriesInfrastructure\\": "src/"
+                    "Keerill\\Categories\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Keerill\\Categories\\Tests\\": "tests/"
                 }
             },
             "authors": [

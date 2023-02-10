@@ -1,13 +1,13 @@
 {
-    "name": "keerill/categories-infrastructure",
+    "name": "keerill/categories-interfaces",
     "autoload": {
         "psr-4": {
-            "Keerill\\CategoriesInfrastructure\\": "src/"
+            "Keerill\\Categories\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Keerill\\CategoriesInfrastructure\\Tests\\": "tests/"
+            "Keerill\\Categories\\Tests\\": "tests/"
         }
     },
     "authors": [

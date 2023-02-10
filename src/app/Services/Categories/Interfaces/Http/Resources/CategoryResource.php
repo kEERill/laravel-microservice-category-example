@@ -3,7 +3,7 @@
 namespace App\Services\Categories\Interfaces\Http\Resources;
 
 use Illuminate\Http\Resources\Json\JsonResource;
-use Keerill\CategoriesInfrastructure\DataTransferObjects\CategoryData;
+use Keerill\Categories\DataTransferObjects\CategoryData;
 
 final class CategoryResource extends JsonResource
 {

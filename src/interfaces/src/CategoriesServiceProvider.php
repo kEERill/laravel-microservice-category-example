@@ -1,6 +1,6 @@
 <?php
 
-namespace Keerill\CategoriesInfrastructure;
+namespace Keerill\Categories;
 
 use Micromus\MicroserviceStructure\Services\AbstractServiceProvider;
 use Micromus\MicroserviceStructure\Services\ServiceConfigurator;

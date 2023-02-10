@@ -1,10 +1,10 @@
 <?php
 
-namespace Keerill\CategoriesInfrastructure\Tests;
+namespace Keerill\Categories\Tests;
 
 use Illuminate\Support\Facades\Http;
-use Keerill\CategoriesInfrastructure\DataTransferObjects\CategoryData;
-use Keerill\CategoriesInfrastructure\Subservices\CategoriesSubservice;
+use Keerill\Categories\DataTransferObjects\CategoryData;
+use Keerill\Categories\Subservices\CategoriesSubservice;
 use Tests\TestCase;
 
 final class CategoriesSubserviceTest extends TestCase

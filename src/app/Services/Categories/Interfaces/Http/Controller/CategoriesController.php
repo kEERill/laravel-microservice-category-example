@@ -4,7 +4,7 @@ namespace App\Services\Categories\Interfaces\Http\Controller;
 
 use App\Services\Categories\Interfaces\Http\Resources\CategoryResource;
 use Illuminate\Http\JsonResponse;
-use Keerill\CategoriesInfrastructure\Contracts\GetCategoryByIdInterface;
+use Keerill\Categories\Contracts\GetCategoryByIdInterface;
 
 final class CategoriesController
 {

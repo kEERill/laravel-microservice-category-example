@@ -1,6 +1,6 @@
 <?php
 
-namespace Keerill\CategoriesInfrastructure\DataTransferObjects;
+namespace Keerill\Categories\DataTransferObjects;
 
 use Spatie\LaravelData\Data;
 
